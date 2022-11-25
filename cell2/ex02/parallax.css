@@ -1,0 +1,48 @@
+body {
+	background-color: black;
+	height: 100vh;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 100px;
+}
+
+.text {
+	color: white;
+}
+
+.section {
+	position: relative;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+  }
+
+.para {
+	background-attachment: fixed; /*specifies the background image should scroll or be fixed*/
+	background-position: center; /*position of the background image.*/
+	background-repeat: no-repeat; /*Show the background image only once:*/
+	background-size: cover; /*sets the size of the element's background image.
+	Cover: Scales the image to the smallest possible size to fill the container, 
+	leaving no empty space*/
+  }
+
+.static {
+	color: white;
+}
+
+.img1 {
+	background-image: url(https://images.unsplash.com/photo-1614792222537-fa79903cdfde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+	background-position: center;
+}
+
+.img2 {
+	background-image: url(https://images.unsplash.com/photo-1580894742597-87bc8789db3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80);
+	background-position: center;
+}

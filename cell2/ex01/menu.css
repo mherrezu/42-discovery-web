@@ -1,0 +1,46 @@
+body {
+	text-align: center;
+	font-family: monospace;
+}
+
+.photo {
+	border-radius: 50%;
+}
+
+.menu{
+	display: block;
+	position: relative;
+}
+
+ul {
+	display: none;
+}
+
+.menu {
+	display: block;
+}
+
+input {
+	display: none;
+}
+
+.button {
+	width: 40px;
+}
+
+ul {
+	background-color: white;
+	color:  #D6D6D6;
+	font-size: 35px;
+	display: none;
+	list-style-type: none;
+	position: relative;
+	text-align: justify;
+	width: 845px;
+	height: 624px;
+}
+
+.menu input:checked ~ ul {
+	display: block;
+	justify-content: center;
+}
