@@ -2,7 +2,7 @@
 
 # ⚡ What is Piscine Discovery Web?
 
-This repository contains the various HTML, CSS and Javascript challenges carried out during 5 days in the "Web Discovery" experience of 42 Málaga
+This repository contains the different challenges to get started in HTML, CSS and Javascript carried out during 5 days in the "Web Discovery" experience of 42 Málaga School.
 
 # :computer: Technologies
 
